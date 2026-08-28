@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image:url("assets/bg.jpg");
+    background-size:max(1200px,100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:62px;
+    position: relative;
+    z-index: 10;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    height:calc(100% - 62px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color: white;
+    z-index: 10;
+    gap: 10px;
+    padding:0 23px;
+    text-align: center; 
+}
+
+#id1{
+    font-weight: 800px;
+    font-size: 56px;
+    text-align: center;
+}
+
+#id2{
+    font-weight: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#id3{
+    font-weight: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 5px;
+    background-color: rgb(62, 62, 62);
+}
+
+.btn{
+    padding:3px 8px;
+    font-weight:bold;
+    background-color: rgb(23,23,23,0.7);
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red{
+background-color: red;
+color: white;
+padding: 3px 24px;
+font-size: 20px;
+border-radius: 4px;
+}
+
+.main input{
+padding: 5px 24px;
+font-size: 15px;
+border-radius: 4px;
+background-color: rgb(23,23,23,0.7);
+color: white;
+}
+
+.btn-red-sm{
+background-color: red;
+color: white;
+border-radius: 4px;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.first{
+    display: flex;
+    justify-self:center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}  
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    top: 10px;
+    width: 565px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 490px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.ak{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 48px;
+    
+}
+
+.faq{
+    background-color: black;
+    color: white;
+   
+   
+   
+
+}
+
+.faq :hover {
+    background-color: rgb(67, 65, 65);
+   
+}
+
+.faqbox{
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(46, 44, 44);
+    padding: 24px;
+    font-size: 24px;
+    margin:10px auto;
+    max-width: 70vw;
+    cursor: pointer;
+}
+
+.h2{
+    font-family: "Martel Sans", sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero-buttons2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    padding: 30px;
+   
+}
+
+.hero-buttons2 input{
+    width: 500px;
+    padding: 5px 24px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgb(23, 23, 23, 0.7);
+    color: white;
+}
+
+footer{
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding: 34px;
+}
+
+footer div{
+    padding: 20px 0px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 16px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+}
+
+.footer a{
+color: white;
+font-size: 16px;
+font-family: "Martel Sans", sans-serif;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    gap: 23px;
+
+    
+}
+
+.netflex{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 16px;
+}
+
+button{
+   font-size: 16px;
+   background-color: black;
+   color: white;
+}

@@ -1,0 +1,74 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+background-image: url("https://png.pngtree.com/background/20230827/original/pngtree-3d-illustration-of-calculator-icon-with-math-symbols-in-black-picture-image_4841333.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+h1{
+  color : white;
+}
+
+#display{
+    border-radius: 5px;
+    width : 300px;
+    margin-bottom:20px;
+    text-align: right;
+    font-size: 25px;
+}
+
+#container{
+  background:black;
+  padding:20px;
+  border-radius:20px;
+}
+
+#div1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap : 10px;
+}
+
+.buttons{
+    height : 50px;
+    width : 98px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flexbox;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buttons:hover{
+  background-color: rgb(51, 51, 52);
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+#main{
+  margin-top: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 50px;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+#main:hover{
+  box-shadow: 0 0 22px white;
+  border-radius: 25px;
+}
+
+#animation{
+  height: 500px;
+  width: 500px;
+  background: black;
+  border-radius: 50px;
+}
