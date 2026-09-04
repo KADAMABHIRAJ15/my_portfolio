@@ -64,11 +64,12 @@ body{
 }
 
 .msg-container{
-    height:100vmin ;
+    /* height:100vmin ; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .hide{
@@ -80,7 +81,11 @@ h1{
 }
 
 @media (max-width:768px) {
-    h1{
+    /* h1{
         margin-top: 150px;
-    }
+    } */
+
+    /* .msg-container{
+      
+    } */
 }
