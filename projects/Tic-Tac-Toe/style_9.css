@@ -74,3 +74,9 @@ body{
 .hide{
     display: none;
 }
+
+@media (max-width:768px) {
+    h1{
+        margin-top: 150px;
+    }
+}
