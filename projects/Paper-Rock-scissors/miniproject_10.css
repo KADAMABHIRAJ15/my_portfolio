@@ -66,9 +66,9 @@ img{
 }
 
 @media (max-width:768px) {
-    h1{
+    /* h1{
         padding: 10px;
-    }
+    } */
 
     .choices{
         display: grid;
