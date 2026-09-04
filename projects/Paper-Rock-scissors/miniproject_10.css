@@ -67,7 +67,7 @@ img{
 
 @media (max-width:768px) {
     h1{
-        width: 100%;
+        padding: 10px;
     }
 
     .choices{
@@ -83,7 +83,10 @@ img{
     }
 
     .msg-container{
-        padding-bottom: 25px;
+        margin: 20px 20px;
+    }
 
+    #msg{
+        padding: 10px;
     }
 }
