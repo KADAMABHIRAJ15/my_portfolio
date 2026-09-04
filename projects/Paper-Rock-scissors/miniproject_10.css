@@ -64,3 +64,25 @@ img{
     text-align: center;
     border-radius: 0.5rem;
 }
+
+@media (max-width:768px) {
+    h1{
+        width: 100%;
+    }
+
+    .choices{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .score-board{
+        margin-top: 400px;
+    }
+
+    .msg-container{
+        padding-bottom: 25px;
+    }
+}
