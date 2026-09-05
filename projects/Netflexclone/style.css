@@ -277,3 +277,13 @@ button{
    color: white;
 }
 
+@media (max-width:768px) {
+    nav{
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .hero{
+        
+    }
+}
