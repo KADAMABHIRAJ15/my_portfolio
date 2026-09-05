@@ -295,11 +295,12 @@ button{
 
     .hero-buttons{
         flex-direction: column;
-        gap: 10px;
+        /* gap: 10px; */
     }
 
     .btn-red{
         padding: 5px;
+        margin-top: 10px;
     }
 
     .first{
