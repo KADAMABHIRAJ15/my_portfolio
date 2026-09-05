@@ -278,6 +278,11 @@ button{
 }
 
 @media (max-width:768px) {
+
+    .main{
+        height: 100vh;
+    }
+
     nav{
         max-width: 100%;
         padding: 10px;
@@ -291,5 +296,14 @@ button{
     .hero-buttons{
         flex-direction: column;
         gap: 10px;
+    }
+
+    .btn-red{
+        padding: 5px;
+    }
+
+    .first{
+        flex-direction:column;
+        padding: 30px;
     }
 }
