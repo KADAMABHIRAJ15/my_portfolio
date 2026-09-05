@@ -283,7 +283,13 @@ button{
         padding: 10px;
     }
 
-    .hero{
-        
+    #id1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+        gap: 10px;
     }
 }
