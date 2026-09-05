@@ -306,4 +306,22 @@ button{
         flex-direction:column;
         padding: 30px;
     }
+
+    .secImg img {
+    top: 10px;
+    width: 350px;
+    position: relative;
+    z-index: 10;
+    }
+
+    .secImg video {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 320px;
+}
+
+.hero-buttons2{
+    
+}
 }
