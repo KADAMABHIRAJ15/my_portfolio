@@ -321,7 +321,8 @@ button{
     width: 320px;
 }
 
-.hero-buttons2{
-    
+.hero-buttons2 input{
+    width: 250px;
 }
+
 }
