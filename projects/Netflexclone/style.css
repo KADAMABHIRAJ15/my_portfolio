@@ -326,4 +326,13 @@ button{
     width: 250px;
 }
 
+.footer{
+    display:flow-root;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    color: white;
+}
+
+footer{
+    margin: 0px;
+}
 }
