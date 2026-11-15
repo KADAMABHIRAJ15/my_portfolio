@@ -465,6 +465,7 @@ nav a{
     .hamburger{
         display: block;
         margin-left: 55%;
+        color: white;
         z-index: 1001;
     }
 
