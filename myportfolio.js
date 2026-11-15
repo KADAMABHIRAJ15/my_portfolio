@@ -15,10 +15,6 @@ contactForm.addEventListener("submit", (event) => {
     }
 
     alert("Message submitted successfully!");
-    // console.log(`Name : ${name}`)
-    // console.log(`Email : ${email}`)
-    // console.log(`Message : ${message}`)
-
     contactForm.reset();
 });
 
