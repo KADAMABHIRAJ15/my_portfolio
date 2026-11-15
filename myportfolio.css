@@ -617,3 +617,76 @@ nav a{
     transform: scale(1.1);
     color: aqua;
 }
+
+
+/* page services */
+#Services h2{
+    font-family: Figtree, system-ui, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 70px;
+    color: #23153C;
+}
+
+#Services {
+    min-height: 100vh;
+    padding: 90px 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#Services h2 {
+    font-size: 64px;
+    color: #23153C;
+    text-align: center;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+
+.service-card {
+    background: #100E1C;
+    color: white;
+    padding: 35px 20px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.service-card i {
+    font-size: 45px;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #23153C;
+}
+
+@media(max-width: 768px) {
+    #services {
+        grid-template-columns: 1fr;
+    }
+
+    #Services h2 {
+        font-size: 42px;
+    }
+}
