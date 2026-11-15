@@ -3,9 +3,9 @@ const contactForm = document.querySelector("#contactForm");
 contactForm.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const name = contactForm.querySelector(".c").value.trim();
+    const name = contactForm.querySelector("#c_name").value.trim();
 
-    const email = contactForm.querySelector(".c").value.trim();
+    const email = contactForm.querySelector("#c_email").value.trim();
 
     const message = contactForm.querySelector("#c-t").value.trim();
 
