@@ -1,5 +1,4 @@
 const contactForm = document.querySelector("#contactForm");
-console.log(contactForm)
 
 contactForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -16,9 +15,9 @@ contactForm.addEventListener("submit", (event) => {
     }
 
     alert("Message submitted successfully!");
-    console.log(`Name : ${name}`)
-    console.log(`Email : ${email}`)
-    console.log(`Message : ${message}`)
+    // console.log(`Name : ${name}`)
+    // console.log(`Email : ${email}`)
+    // console.log(`Message : ${message}`)
 
     contactForm.reset();
 });
