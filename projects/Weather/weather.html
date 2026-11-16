@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css"/>
+</head>
+<body>
+        <h1>Weather App</h1>
+        <p class="subtitle">Check weather of any city</p>
+        <div class="search-box">
+            <input type="text" id="search-city" placeholder="Enter city name..." />
+            <button id="search-btn">Search</button>
+        </div>
+        <p id="ip"></p>
+        <h2>City<span id="city"></span></h2>
+        <h2>Temperature <span id="temp"></span></h2>
+        <h2>Min_Temperature<span id="min-temp"></span></h2>
+        <h2>Max_Temperature <span id="max-temp"></span></h2>
+        <h2>Humidity <span id="humidity"></span></h2>
+        <h2>pressure<span id="pressure"></span></h2>
+        <p id="p"></p>
+        <p style="margin-top:10px;">Search a city to see its weather.</p>
+        <script src="weather.js"></script>
+</body>
+</html>
